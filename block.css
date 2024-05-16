@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    overflow-y: hidden;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src:
+      local("Arial")
+     
+  }
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-image{
+   width: 100%;
+   height: 100%;
+   padding: 4rem;
+   padding-left: 10rem;
+}
+
+.flex-image img {
+    width: 90%;
+    height: 95%;
+    object-fit: contain;
+}
+
+.flex-content {
+    width: 45%;
+    height: 70%;
+    overflow: scroll;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.content-toggle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boom {
+    width: 50%;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid black;
+    
+}
+
+.boom.active {
+    border-bottom: 1px solid black;
+}
+
+.middle {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid grey;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid grey;
+    
+}
+
+.beblue {
+    padding: 4vh;
+    color: rgb(0, 0, 0);
+    border-radius: 40%;
+}
+
+.bered {
+    padding: 4vh;
+    color: rgb(0, 0, 0);
+    border-radius: 40%;
+    position: relative;
+    top: 5vh;
+
+}
+
+.begreen {
+    padding: 4vh;
+    color: rgb(0, 0, 0);
+    border-radius: 40%;
+    position: relative;
+    top: 10vh;
+}
+
+.bepurple {
+    padding: 4vh;
+    color: rgb(0, 0, 0);
+    border-radius: 40%;
+    position: relative;
+    top: 15vh;
+}
